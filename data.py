@@ -4,7 +4,7 @@ def get_prices():
     Returns:
         pd.DataFrame: A dataframe with the prices of BP and SHELL
     '''
-    data = yf.download(['BP.L', 'SHEL.L'], '2000-01-01')
+    data = yf.download(['BP.L', 'SHEL.L'], '2005-01-01')
     data = data.xs('Close', axis=1, level=0)
     data.dropna(inplace=True)
     data.rename(inplace=True, columns={"BP.L" : "BP", "SHEL.L" : "SHEL"})
