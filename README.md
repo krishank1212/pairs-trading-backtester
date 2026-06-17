@@ -153,6 +153,7 @@ This strategy makes several simplifying assumptions that limit its real-world ap
 - **Fixed parameters**: entry/exit thresholds and rolling window are fixed rather than optimised or adapted to changing regimes.
 - **Single pair**: results are specific to BP and Shell and may not generalise.
 - **No stop losses**: the strategy has no mechanism for exiting a losing position before the z-score reverts, leading to large drawdowns during slow-reverting dislocations.
+- **Unnormalised PnL and max drawdown**: the cumulative PnL and max drawdown are denominated in GBP per share of Shell held, not on any notional capital amount. Returns are typically normalised by capital allocated.
 
 ---
 
