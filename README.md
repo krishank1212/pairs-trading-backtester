@@ -118,10 +118,9 @@ Sub-period analysis was conducted across three regimes:
 | 2020–present | 538.7 | -566.1 | 0.309 |
 | Full period | 2392.5 | -1002.7 | 0.427 |
 
-<img width="1196" height="597" alt="image" src="https://github.com/user-attachments/assets/1561d371-fd95-4b68-b7c2-b131c656dc89" />
-<img width="1196" height="597" alt="image" src="https://github.com/user-attachments/assets/2b396d6f-8bf7-4afb-a505-21c7574e3fef" />
-<img width="1197" height="597" alt="image" src="https://github.com/user-attachments/assets/e8f0c121-2587-4249-8649-7709b2ce9425" />
-
+<img width="1197" height="598" alt="image" src="https://github.com/user-attachments/assets/0aeda1a4-8efc-4285-b355-eeb8ad427dd5" />
+<img width="1197" height="598" alt="image" src="https://github.com/user-attachments/assets/4f29eb07-b0fc-4bf8-b21a-42f9d1dea90e" />
+<img width="1197" height="598" alt="image" src="https://github.com/user-attachments/assets/7cb648a1-721a-4511-a855-bc7ea8c32b1c" />
 
 ---
 
@@ -134,7 +133,8 @@ The full-period cointegration test (p = 0.783) fails decisively, but this masks 
 The most plausible explanation is the Deepwater Horizon oil spill in April 2010, which caused BP's share price to collapse by approximately 50% while Shell was largely unaffected. This created a large, persistent dislocation in the spread that slowly reverted over the following decade as BP recovered operationally and financially. The dislocation and its reversion are precisely the conditions that generate a stationary spread (and hence cointegration) over this window.
 
 Pre-2010, the two companies traded more independently, producing a noisier and less structured spread. Post-2020, Shell has structurally diverged from BP, pivoting more aggressively toward LNG and commanding a higher valuation multiple, causing the spread to trend persistently upward with no mean-reverting anchor.
-<img width="1196" height="597" alt="image" src="https://github.com/user-attachments/assets/03f29f42-267b-4bc5-9361-a80bdf77c1b6" />
+<img width="1197" height="598" alt="image" src="https://github.com/user-attachments/assets/f893778b-c94c-4b32-b6d5-d41ef118e313" />
+
 
 ## The cointegration-profitability paradox
 
