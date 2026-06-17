@@ -49,7 +49,8 @@ Trading signals are generated as follows:
 - $|z_t| < 0.5$: close position (signal $= 0$)
 
 Positions persist between entry and exit: the signal on day $t$ depends on the signal on day $t-1$, requiring sequential rather than vectorised computation.
-<img width="1196" height="597" alt="image" src="https://github.com/user-attachments/assets/d6f34b4b-4807-4ce9-9a53-55173c49f5dd" />
+<img width="1197" height="598" alt="image" src="https://github.com/user-attachments/assets/063c9457-c7e6-4879-9155-f17c2adb99ab" />
+
 
 ## PnL and performance metrics
 
