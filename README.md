@@ -119,7 +119,8 @@ Sub-period analysis was conducted across three regimes:
 
 <img width="1196" height="597" alt="image" src="https://github.com/user-attachments/assets/1561d371-fd95-4b68-b7c2-b131c656dc89" />
 <img width="1196" height="597" alt="image" src="https://github.com/user-attachments/assets/2b396d6f-8bf7-4afb-a505-21c7574e3fef" />
-<img width="1196" height="597" alt="image" src="https://github.com/user-attachments/assets/94d4cbb5-a560-4c48-81fc-bd0effce1650" />
+<img width="1197" height="597" alt="image" src="https://github.com/user-attachments/assets/e8f0c121-2587-4249-8649-7709b2ce9425" />
+
 
 ---
 
