@@ -49,7 +49,8 @@ Trading signals are generated as follows:
 - $|z_t| < 0.5$: close position (signal $= 0$)
 
 Positions persist between entry and exit: the signal on day $t$ depends on the signal on day $t-1$, requiring sequential rather than vectorised computation.
-<img width="1196" height="597" alt="image" src="https://github.com/user-attachments/assets/d6f34b4b-4807-4ce9-9a53-55173c49f5dd" />
+<img width="1197" height="598" alt="image" src="https://github.com/user-attachments/assets/063c9457-c7e6-4879-9155-f17c2adb99ab" />
+
 
 ## PnL and performance metrics
 
@@ -117,9 +118,9 @@ Sub-period analysis was conducted across three regimes:
 | 2020–present | 538.7 | -566.1 | 0.309 |
 | Full period | 2392.5 | -1002.7 | 0.427 |
 
-<img width="1196" height="597" alt="image" src="https://github.com/user-attachments/assets/1561d371-fd95-4b68-b7c2-b131c656dc89" />
-<img width="1196" height="597" alt="image" src="https://github.com/user-attachments/assets/2b396d6f-8bf7-4afb-a505-21c7574e3fef" />
-<img width="1196" height="597" alt="image" src="https://github.com/user-attachments/assets/94d4cbb5-a560-4c48-81fc-bd0effce1650" />
+<img width="1197" height="598" alt="image" src="https://github.com/user-attachments/assets/0aeda1a4-8efc-4285-b355-eeb8ad427dd5" />
+<img width="1197" height="598" alt="image" src="https://github.com/user-attachments/assets/4f29eb07-b0fc-4bf8-b21a-42f9d1dea90e" />
+<img width="1197" height="598" alt="image" src="https://github.com/user-attachments/assets/7cb648a1-721a-4511-a855-bc7ea8c32b1c" />
 
 ---
 
@@ -132,7 +133,8 @@ The full-period cointegration test (p = 0.783) fails decisively, but this masks 
 The most plausible explanation is the Deepwater Horizon oil spill in April 2010, which caused BP's share price to collapse by approximately 50% while Shell was largely unaffected. This created a large, persistent dislocation in the spread that slowly reverted over the following decade as BP recovered operationally and financially. The dislocation and its reversion are precisely the conditions that generate a stationary spread (and hence cointegration) over this window.
 
 Pre-2010, the two companies traded more independently, producing a noisier and less structured spread. Post-2020, Shell has structurally diverged from BP, pivoting more aggressively toward LNG and commanding a higher valuation multiple, causing the spread to trend persistently upward with no mean-reverting anchor.
-<img width="1196" height="597" alt="image" src="https://github.com/user-attachments/assets/03f29f42-267b-4bc5-9361-a80bdf77c1b6" />
+<img width="1197" height="598" alt="image" src="https://github.com/user-attachments/assets/f893778b-c94c-4b32-b6d5-d41ef118e313" />
+
 
 ## The cointegration-profitability paradox
 
@@ -153,6 +155,7 @@ This strategy makes several simplifying assumptions that limit its real-world ap
 - **Fixed parameters**: entry/exit thresholds and rolling window are fixed rather than optimised or adapted to changing regimes.
 - **Single pair**: results are specific to BP and Shell and may not generalise.
 - **No stop losses**: the strategy has no mechanism for exiting a losing position before the z-score reverts, leading to large drawdowns during slow-reverting dislocations.
+- **Unnormalised PnL and max drawdown**: the cumulative PnL and max drawdown are denominated in GBP per share of Shell held, not on any notional capital amount. Returns are typically normalised by capital allocated.
 
 ---
 
